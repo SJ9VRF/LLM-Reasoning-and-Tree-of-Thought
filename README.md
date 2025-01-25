@@ -45,5 +45,5 @@ Building upon CoT, the **Tree of Thoughts (ToT)** framework enables models to ex
 
 3. **Install Dependencies**
    ```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
    ```
