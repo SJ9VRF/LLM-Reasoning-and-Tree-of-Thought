@@ -1,5 +1,7 @@
 # src/prompts/chain_of_thought.py
 
+# handle the creation of prompts that guide the model through a series of logical reasoning steps to solve complex tasks.
+
 class ChainOfThoughtPrompt:
     @staticmethod
     def solve_arithmetic_problem():
