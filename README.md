@@ -75,3 +75,30 @@ The project encompasses various prompting strategies. Navigate through the examp
 ``` bash
 python src/examples/example_chain_of_thought.py
 ```
+
+
+
+## Testing
+
+Ensure all components function as expected by running unit tests:
+``` bash
+python -m unittest discover tests
+```
+
+## Contributing
+
+Contributions are highly encouraged! Whether it's adding new prompting techniques, enhancing existing modules, or improving documentation, your input can help evolve the project.
+1. Fork the Repository
+2. Create a Feature Branch
+``` bash
+git checkout -b feature/YourFeatureName
+``` 
+3. Commit Your Changes
+``` bash
+git commit -m "Add your detailed description of changes"
+```
+4. Push to the Branch
+``` bash
+git push origin feature/YourFeatureName
+```
+5. Open a Pull Request
