@@ -47,3 +47,18 @@ Building upon CoT, the **Tree of Thoughts (ToT)** framework enables models to ex
    ```bash
     pip install -r requirements.txt
    ```
+
+### Configuration
+
+#### API Key Setup
+Obtain your OpenAI API key from [OpenAI's website](https://platform.openai.com/).
+Replace `YOUR_API_KEY_HERE` in your scripts or set it as an environment variable.
+
+#### Model Selection
+The project supports multiple GPT-4 models:
+
+- **gpt-4o-mini**: Cost-effective, recommended for initial experiments.
+- **gpt-4o**: Balances capability and cost.
+- **gpt-4-turbo**: Highly sophisticated, best for complex tasks.
+
+You can specify the model when initializing the `GPT4` class.
