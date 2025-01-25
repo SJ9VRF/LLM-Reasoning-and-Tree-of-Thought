@@ -102,3 +102,8 @@ git commit -m "Add your detailed description of changes"
 git push origin feature/YourFeatureName
 ```
 5. Open a Pull Request
+
+## Future Works
+- Enhanced ToT Implementations: Expand the Tree of Thoughts framework to handle more complex problem-solving scenarios.
+- Advanced Prompting Techniques: Implement additional prompting strategies as needed.
+
