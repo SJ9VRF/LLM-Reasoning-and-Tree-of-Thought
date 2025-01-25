@@ -24,18 +24,13 @@ Building upon CoT, the **Tree of Thoughts (ToT)** framework enables models to ex
 
 ## Getting Started
 
-### Prerequisites
-
-- **Python 3.10+**: Ensure you have Python installed. You can download it from [Python's official website](https://www.python.org/downloads/).
-- **Git**: For version control. Install it from [Git's official website](https://git-scm.com/downloads).
-
 ### Installation
 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/tree-of-thoughts-project.git
-   cd tree-of-thoughts-project
+   git clone https://github.com/yourusername/LLM-Reasoning-and-Tree-of-Thought.git
+   cd LLM-Reasoning-and-Tree-of-Thought
    ```
 2. **Set Up a Virtual Environment**
    ```bash
@@ -62,3 +57,21 @@ The project supports multiple GPT-4 models:
 - **gpt-4-turbo**: Highly sophisticated, best for complex tasks.
 
 You can specify the model when initializing the `GPT4` class.
+
+## Usage
+
+### Example: Zero-Shot Prompting
+Zero-Shot Prompting involves instructing the model to perform a task without providing examples.
+#### Running the Example:
+``` bash
+python src/examples/example_zero_shot.py
+```
+
+### Exploring Advanced Techniques
+The project encompasses various prompting strategies. Navigate through the examples/ directory to explore scripts like example_few_shot.py, example_chain_of_thought.py, and more, each demonstrating different methodologies.
+
+#### Example: Chain of Thought Prompting
+#### Running the Example:
+``` bash
+python src/examples/example_chain_of_thought.py
+```
