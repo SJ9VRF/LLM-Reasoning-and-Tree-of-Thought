@@ -21,3 +21,29 @@ Large Language Models like GPT-4 have transformed the landscape of artificial in
 ### Introducing Tree of Thoughts
 
 Building upon CoT, the **Tree of Thoughts (ToT)** framework enables models to explore multiple reasoning paths simultaneously. This tree-like exploration allows for systematic evaluation and backtracking, facilitating more robust and accurate solutions, especially for tasks that require strategic planning and exploration. ToT enhances the model's ability to consider various possibilities and outcomes, leading to more informed and reliable decision-making.
+
+## Getting Started
+
+### Prerequisites
+
+- **Python 3.10+**: Ensure you have Python installed. You can download it from [Python's official website](https://www.python.org/downloads/).
+- **Git**: For version control. Install it from [Git's official website](https://git-scm.com/downloads).
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/yourusername/tree-of-thoughts-project.git
+   cd tree-of-thoughts-project
+   ```
+2. **Set Up a Virtual Environment**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**
+   ```bash
+pip install -r requirements.txt
+   ```
