@@ -1,3 +1,5 @@
+# provides additional utility functions that could be used across different parts of the project.
+
 # src/utils/helpers.py
 
 def format_prompt(prompt):
