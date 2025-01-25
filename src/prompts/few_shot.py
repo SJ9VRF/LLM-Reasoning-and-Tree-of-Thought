@@ -1,3 +1,5 @@
+# uses the concept of few-shot learning by providing the model with a few examples before the actual prompt to improve the model's understanding and response accuracy.
+
 # src/prompts/few_shot.py
 
 class FewShotPrompt:
