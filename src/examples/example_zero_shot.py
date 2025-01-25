@@ -1,3 +1,5 @@
+# Zero-Shot Prompting involves instructing the model to perform a task without providing examples.
+
 # src/examples/example_zero_shot.py
 
 from src.gpt4 import GPT4
